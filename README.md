@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Product Store with Cart
 
-## Getting Started
+This is a simple e-commerce project that integrates with the FakeStore API to display products, add them to a shopping cart, and calculate the total price. The project is built using **Next.js** for the frontend and includes features like lazy loading for improved performance, a responsive design, as well as product filtering and searching.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Display products fetched from the [FakeStore API](https://fakestoreapi.com/).
+- Add products to the shopping cart.
+- Calculate and display the total cost of the cart.
+- Clear the cart at any time.
+- **Filter products** by category.
+- **Search products** by title.
+- Dynamic component loading to improve performance.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Live Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can view the live demo of the project here:  
+[Product Store - Live Demo](https://test-task-2-davhovhannisyandev-gmailcoms-projects.vercel.app/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
+To run the project locally, follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+### Prerequisites
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Ensure you have the following installed:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Node.js](https://nodejs.org/) (version 16 or higher)
+- [npm](https://npmjs.com/) (or [Yarn](https://yarnpkg.com/) if you prefer)
 
-## Deploy on Vercel
+### Steps
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/David036/test-task-2.git
+   ```

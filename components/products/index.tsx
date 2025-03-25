@@ -7,10 +7,10 @@ import Card from "../card";
 import { IProduct } from "./types";
 
 export default function Products() {
+  const { search, category } = useSearchFilter();
   const [products, setProducts] = useState<IProduct[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>("");
-  const { search, category } = useSearchFilter();
 
   useEffect(() => {
     async function getProducts() {
@@ -18,8 +18,6 @@ export default function Products() {
       setError(null);
       try {
         const data = await fetchProducts();
-        console.log(data, "data");
-
         if (!data) {
           throw new Error("Failed to fetch products.");
         }
